@@ -6,7 +6,7 @@ export const container = {
 };
 
 export const input = {
-  width: '300px',
+  width: '350px',
   border: 'solid 1px grey',
   borderRadius: '5px',
   padding: '10px 5px',
@@ -20,9 +20,10 @@ export const predictionList = {
 };
 
 export const prediction = {
-  minWidth: '300px',
+  minWidth: '350px',
   borderBottom: 'solid 1px #bfbfbf',
-  cursor: 'pointer'
+  cursor: 'pointer',
+  transition: '0.2s'
 };
 
 export const predictionName = {
